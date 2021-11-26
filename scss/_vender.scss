@@ -1,0 +1,89 @@
+.info-vender{
+    font-family: "Urbanist", sans-serif;
+    color: rgb(24, 23, 22);
+    font-size: 30px;
+  }
+  .info-vender:hover{
+    font-size: 30px;
+  }
+  .principal-vender{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'info info info'
+    'info1 info1 info1'
+    'maps maps maps'
+    'footer footer footer'
+    ;
+  }
+  
+  #boton-ventas{
+    background-color:  
+    rgb(118, 128, 128);
+    border-color: rgb(24, 23, 22);
+    border-radius: 30%;
+    padding: 10px;
+  }
+  
+  #boton-ventas:hover{
+    background-color: rgb(214, 104, 15);
+  }
+  
+  #boton-ventas a{
+    color: rgb(0, 0, 0);
+    font-family: 'urbanist';
+  }
+  
+  #boton-ventas a:hover{
+    color: rgb(43, 65, 65);
+  }
+  
+  #boton-position{
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  #header1{
+    grid-area: header;
+    align-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;  
+  }
+  #info1{
+    grid-area: info;
+    align-content: center;
+    background-image: url(../public/images/001.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 100px 0px 100px 0px; 
+  }
+  #info1 h2{
+    color: rgb(240, 152, 20);
+    position: relative;
+  }
+  
+  #info1 p {
+    color: rgb(197, 195, 195);
+    position: relative;
+  }
+  #info1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  #info2{
+    grid-area: info1;
+    justify-items: center; 
+  }
+  #ubicacion{
+    grid-area: maps;
+    align-content: center;  
+  }

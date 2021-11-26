@@ -1,0 +1,30 @@
+@import "variables";
+@import "mixins";
+@import "index";
+@import "media";
+@import "etiquetas";
+@import "lotes";
+@import "nosotros";
+@import "tasaciones";
+@import "vender";
+@import "navCss";
+
+#titlepalm{
+    font-size: $titlepalm/2;
+    font-weight: 700;
+  }
+  .align-section2{
+    display: block;
+    text-align: start;
+    font-size: 20px;
+   font-weight: 600;
+   margin: 10px 0 0 0;
+    
+  }
+  .align-section{
+    display: block;
+   text-align: center;
+   font-size: 20px;
+   font-weight: 600;
+   margin: 10px 0 0 0;
+  }

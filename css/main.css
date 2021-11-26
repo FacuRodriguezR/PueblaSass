@@ -1,0 +1,810 @@
+.display-index {
+  display: grid;
+  grid-template-areas: 'header header header' 'cuerpo cuerpo cuerpo' 'venta venta venta' 'carrousel carrousel carrousel' 'lista lista lista' 'footer footer footer';
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0; }
+
+#header-index {
+  grid-area: header; }
+
+#imagen-logo {
+  height: 60px;
+  width: 170px; }
+
+#cuerpo-index {
+  grid-area: cuerpo; }
+
+#bckground-seccion1 {
+  background-image: url(../public/images/02.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #f09814;
+  position: relative; }
+
+#bckground-seccion1:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6); }
+
+#bckground-seccion1 h1 {
+  color: #f09814;
+  position: relative;
+  font-size: 50px; }
+
+#bckground-seccion1 p {
+  color: aliceblue;
+  position: relative; }
+
+#bckground-seccion1 a {
+  color: #46361e;
+  position: relative; }
+
+#bckground-seccion1 a:hover {
+  color: #e03206;
+  position: relative; }
+
+#bckground-seccion1 button {
+  position: relative;
+  background-color: #f09814; }
+
+#bckground-seccion1 button:hover {
+  background-color: white; }
+
+#font-color1 a {
+  color: #f09814;
+  font-weight: 700;
+  position: relative; }
+
+.boton-vender {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.buttom-style {
+  border-radius: 30px;
+  background-color: #545e5e;
+  font-size: 20px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  border-color: #f09814;
+  border: solid #f09814; }
+
+.buttom-style:hover {
+  background-color: #f09814; }
+
+.buttom-style a {
+  color: black; }
+
+.buttom-style a:hover {
+  color: #2b4141; }
+
+#boton-index {
+  color: #000000; }
+
+#venta-index {
+  grid-area: venta;
+  justify-content: space-between; }
+
+#venta-index p {
+  color: #c5c3c3; }
+
+.alq {
+  background-color: #232525; }
+
+.alq h2 {
+  color: #c5c3c3; }
+
+.seccion-fotos {
+  display: flex;
+  background-color: #252b2b;
+  padding: 20px;
+  margin: 10px;
+  justify-content: space-between; }
+
+.seccion-fotos2 {
+  display: flex;
+  background-color: #252b2b;
+  padding: 20px;
+  margin: 10px;
+  justify-content: space-between; }
+
+.fotografias-ventas {
+  height: 310px;
+  width: 400px;
+  padding: 20px 15px 20px 15px; }
+
+.parrafos-casas {
+  font-weight: bolder;
+  position: relative;
+  color: #d6680f; }
+
+.ver-mas {
+  color: #f09814;
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 20px; }
+
+.fotografias-ventas2 {
+  height: 310px;
+  width: 400px;
+  padding: 20px 15px 20px 15px; }
+
+.background-list {
+  background-color: #252b2b;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.font-2 {
+  font-weight: 400;
+  color: #f09814;
+  margin-left: 100px;
+  margin-right: 100px; }
+
+.font-1 {
+  font-family: "Urbanist", sans-serif;
+  vertical-align: baseline;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 15px;
+  color: #c5c3c3;
+  margin-left: 100px;
+  margin-right: 100px; }
+
+#footer1 {
+  grid-area: footer;
+  padding-bottom: 0%;
+  margin: 0px; }
+
+.footer-vender {
+  color: #c5c3c3;
+  background-color: #232525;
+  width: 100%;
+  padding-bottom: 40px; }
+
+.footer-flex {
+  display: flex; }
+
+.column2 {
+  align-content: space-evenly;
+  display: flex; }
+
+.column1 p {
+  padding-top: 25px;
+  font-size: 16px; }
+
+.column3 p {
+  padding-top: 25px;
+  font-size: 16px; }
+
+.social-foot {
+  text-align: left;
+  padding: 15px;
+  display: inline-flex;
+  margin-top: 20px;
+  transition: all .3s ease-in-out; }
+
+.social-foot:hover {
+  transform: scale(1.3); }
+
+#link-foot span {
+  color: #c5c3c3;
+  font-size: 15px; }
+
+#texto-header {
+  text-align: right; }
+
+#lista-index {
+  grid-area: lista; }
+
+.carrousel-index {
+  grid-area: carrousel;
+  align-items: center; }
+
+@media (max-width: 900px) and (min-width: 300px) {
+  .display-index {
+    display: block;
+    text-align: center; }
+  #venta-index {
+    display: block;
+    text-align: center; }
+  .seccion-fotos {
+    display: block;
+    text-align: center; }
+  .seccion-fotos2 {
+    display: block;
+    text-align: center; }
+  .footer-flex {
+    display: block;
+    text-align: center; }
+  .column2 {
+    text-align: center; }
+  .header-position {
+    display: block; }
+  #cuerpo-index {
+    display: block; }
+  .anim-img {
+    width: auto; }
+  header {
+    display: block;
+    position: relative; }
+  nav {
+    display: block;
+    position: relative; }
+  /* palmares */
+  .iframe-palmares {
+    display: none; }
+  /* lotes */
+  .lotes-body {
+    display: block; }
+  .video-lotes {
+    display: none;
+    width: auto; }
+  #imagenes-lotes-venta {
+    display: block; }
+  .imagenes-lotes {
+    display: block; }
+  .fotografias-lotes {
+    width: 300px;
+    height: 225px;
+    padding: 20px;
+    transition: none; }
+  /* vender */
+  .principal-vender {
+    display: block; }
+  #background-iframe {
+    display: none; }
+  /* form */
+  .body-form {
+    display: block; } }
+
+@media (max-width: 1268px) and (min-width: 901px) {
+  .display-index {
+    display: block;
+    text-align: center; }
+  #venta-index {
+    display: block;
+    text-align: center; }
+  .seccion-fotos {
+    display: block;
+    text-align: center; }
+  .seccion-fotos2 {
+    display: block;
+    text-align: center; }
+  .footer-flex {
+    display: block;
+    text-align: center; }
+  .column2 {
+    text-align: center; }
+  .header-position {
+    display: block; }
+  #cuerpo-index {
+    display: block; }
+  header {
+    display: block;
+    position: relative; }
+  /* palmares */
+  .iframe-palmares {
+    display: none; }
+  /* lotes */
+  .lotes-body {
+    display: block; }
+  .video-lotes {
+    display: none;
+    width: auto; }
+  #imagenes-lotes-venta {
+    display: block; }
+  .imagenes-lotes {
+    display: block; }
+  .fotografias-lotes {
+    width: 300px;
+    height: 225px;
+    padding: 20px;
+    transition: none; }
+  /* vender */
+  .principal-vender {
+    display: block; }
+  #background-iframe {
+    display: none; } }
+
+@media (max-width: 499px) and (min-width: 301px) {
+  .fotografias-ventas {
+    width: 300px;
+    height: 233px; }
+  .fotografias-ventas2 {
+    width: 300px;
+    height: 233px; }
+  .header-position {
+    display: block;
+    max-width: fit-content; }
+  .footer-flex {
+    display: block;
+    text-align: center;
+    max-width: fit-content; }
+  header {
+    display: block;
+    position: relative; }
+  /* palmares */
+  .iframe-palmares {
+    display: none; }
+  /* lotes */
+  .lotes-body {
+    display: block; }
+  .video-lotes {
+    display: none;
+    width: auto; }
+  #imagenes-lotes-venta {
+    display: block;
+    position: relative; }
+  .imagenes-lotes {
+    display: block; }
+  .fotografias-lotes {
+    width: 300px;
+    height: 225px;
+    padding: 20px;
+    transition: none; }
+  /* vender */
+  .principal-vender {
+    display: block; }
+  #background-iframe {
+    display: none; } }
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #c5c3c3;
+  border: 0; }
+
+h3 {
+  font-size: 16px;
+  font-weight: 700; }
+
+h4 {
+  font-size: 14px;
+  font-weight: 500; }
+
+nav {
+  display: flex;
+  background-color: #232525;
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  justify-content: space-evenly; }
+
+header {
+  display: flex;
+  background-color: #232525;
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  justify-content: space-evenly; }
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+li {
+  transition: all .6s ease-in-out; }
+
+li:hover {
+  transform: scale(1.2); }
+
+a {
+  text-decoration: none;
+  color: #bb841f;
+  font-size: 20px;
+  transition: all .5s ease-in-out; }
+
+a:hover {
+  color: #d6680f;
+  font-size: 20px;
+  transform: scale(1.1); }
+
+h1 {
+  font-family: "Urbanist", sans-serif;
+  color: #2b4141;
+  font-size: 45px;
+  text-align: center; }
+
+h2 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #2b4141;
+  font-size: 35px;
+  text-align: center; }
+
+footer {
+  display: flex; }
+
+p {
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+  font-size: 26px;
+  margin-left: 100px;
+  margin-right: 100px; }
+
+.lotes-body {
+  display: grid;
+  grid-template-areas: 'header header header' 'terreno terreno terreno' 'video video pregunta' 'venta venta venta' 'other other other' 'footer footer footer'; }
+
+#header1 {
+  grid-area: header;
+  align-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 999; }
+
+#terrenos-lotes {
+  grid-area: terreno;
+  width: 100%;
+  background-image: url(../public/images/004.jpg);
+  background-position: bottom;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0px 100px 0px; }
+
+#terrenos-lotes::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6); }
+
+#terrenos-lotes h1 {
+  color: #f09814;
+  position: relative; }
+
+#terrenos-lotes p {
+  color: #dbdbdb;
+  position: relative; }
+
+#terrenos-lotes h2 {
+  color: #c5c3c3;
+  position: relative; }
+
+#imagenes-lotes-venta {
+  grid-area: venta;
+  justify-content: space-evenly;
+  display: flex; }
+
+#backgrnd-lotes {
+  color: #dbdbdb;
+  padding-bottom: 40px;
+  padding-top: 40px; }
+
+.video-lotes {
+  grid-area: video;
+  align-content: center;
+  text-align: center;
+  background-color: #2b4141;
+  display: flex;
+  position: relative;
+  padding: 10px; }
+
+.imagenes-lotes {
+  display: flex;
+  /* margin-left: 40px; */
+  padding: 0px; }
+
+.fotografias-lotes {
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  transition: all .6s ease-in-out; }
+
+.fotografias-lotes:hover {
+  transform: scale(1.1); }
+
+.parrafos-lotes {
+  text-align: left;
+  margin-left: 60px; }
+
+.parrafos-lotes1 {
+  text-align: left;
+  margin-left: 60px;
+  font-size: 20px;
+  font-weight: 300; }
+
+#other-lotes {
+  grid-area: other;
+  align-content: center;
+  background-color: #2b4141;
+  padding: 30px 0 30px 0; }
+
+#other-lotes p {
+  color: #c5c3c3; }
+
+#pregunta-lotes {
+  grid-area: pregunta;
+  background-color: #2b4141;
+  align-content: center;
+  display: block; }
+
+#pregunta-lotes p {
+  color: #f09814;
+  font-size: 30px; }
+
+#pregunta-lotes h3 {
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+  color: #c5c3c3; }
+
+#pregunta-lotes a {
+  color: #c5c3c3;
+  font-size: 20px; }
+
+#pregunta-lotes a:hover {
+  color: #9c1d1d; }
+
+.nosotros-grid {
+  display: grid;
+  grid-template-areas: 'header header header' 'main main main' 'title title title' 'footer footer footer'; }
+
+#header-nos {
+  grid-area: header; }
+
+#background-nosotros {
+  background-image: url(../public/images/02.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+  padding: 100px 0px 100px 0px;
+  grid-area: main;
+  max-width: auto; }
+
+#background-nosotros:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  max-width: auto; }
+
+#background-nosotros p {
+  color: white;
+  position: relative; }
+
+#background-nosotros h1 {
+  color: #f09814;
+  position: relative; }
+
+#background-nosotros img {
+  width: max-content; }
+
+.main {
+  grid-area: main; }
+
+.footer-nos {
+  grid-area: footer; }
+
+#iframe1 {
+  margin-left: 270px; }
+
+#background-iframe {
+  background-image: url(../public/images/003.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.tasaciones {
+  display: grid;
+  grid-template-areas: 'header header header' 'info info info' 'boton boton boton' 'footer footer footer'; }
+
+.header-tasa {
+  grid-area: header; }
+
+.info-tasa {
+  display: block;
+  grid-area: info;
+  padding: 100px 0 100px 0;
+  background-image: url(../public/images/tasaciones.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative; }
+
+.info-tasa::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.info-tasa h1 {
+  color: #f09814;
+  position: relative; }
+
+.info-tasa p {
+  color: #c5c3c3;
+  position: relative;
+  align-content: stretch; }
+
+.boton-tasa {
+  justify-content: center;
+  grid-area: boton;
+  display: flexbox;
+  padding: 50px 0 50px 0;
+  background-color: #252b2b;
+  font-family: "Urbanist", sans-serif;
+  text-align: center; }
+
+.info-vender {
+  font-family: "Urbanist", sans-serif;
+  color: #181716;
+  font-size: 30px; }
+
+.info-vender:hover {
+  font-size: 30px; }
+
+.principal-vender {
+  display: grid;
+  grid-template-areas: 'header header header' 'info info info' 'info1 info1 info1' 'maps maps maps' 'footer footer footer'; }
+
+#boton-ventas {
+  background-color: #768080;
+  border-color: #181716;
+  border-radius: 30%;
+  padding: 10px; }
+
+#boton-ventas:hover {
+  background-color: #d6680f; }
+
+#boton-ventas a {
+  color: black;
+  font-family: 'urbanist'; }
+
+#boton-ventas a:hover {
+  color: #2b4141; }
+
+#boton-position {
+  display: flex;
+  justify-content: center; }
+
+#header1 {
+  grid-area: header;
+  align-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 999; }
+
+#info1 {
+  grid-area: info;
+  align-content: center;
+  background-image: url(../public/images/001.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 100px 0px 100px 0px; }
+
+#info1 h2 {
+  color: #f09814;
+  position: relative; }
+
+#info1 p {
+  color: #c5c3c3;
+  position: relative; }
+
+#info1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6); }
+
+#info2 {
+  grid-area: info1;
+  justify-items: center; }
+
+#ubicacion {
+  grid-area: maps;
+  align-content: center; }
+
+.hamburguer-button {
+  display: flex;
+  position: relative; }
+
+.style-button {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 9px;
+  top: -5px;
+  z-index: -1; }
+
+.cbx {
+  width: 50px;
+  height: 50px;
+  cursor: pointer; }
+
+.cbx:checked + nav {
+  transform: translate(0, 0px); }
+
+nav {
+  transition-duration: 500ms;
+  transform: translate(-100vw, 0px);
+  height: 100vh; }
+
+.cbx:checked ~ .style-button label:nth-child(1) {
+  transform: rotate3d(0, 1, 1, 426deg) translate(22px, 6px); }
+
+.cbx:checked ~ .style-button label:nth-child(3) {
+  transform: rotate3d(0, 1, 1, 292deg) translate(10px, -12px); }
+
+.cbx:checked ~ .style-button label:nth-child(2) {
+  opacity: 0; }
+
+label {
+  clip-path: inset(80% 0 0 0);
+  background: linear-gradient(to right, #f09814, #f09814, #f09814);
+  width: 40px;
+  height: 50px;
+  transition-duration: 500ms; }
+
+input[type="checkbox"] {
+  opacity: 0; }
+
+form {
+  position: fixed;
+  top: 0;
+  z-index: 2; }
+
+nav {
+  position: absolute;
+  background-color: #cecece;
+  z-index: -14; }
+
+li:hover {
+  background-color: black;
+  color: white; }
+
+li {
+  transition-duration: 500ms;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 4rem;
+  width: 100vw;
+  list-style: none;
+  cursor: pointer; }
+
+#titlepalm {
+  font-size: 40px;
+  font-weight: 700; }
+
+.align-section2 {
+  display: block;
+  text-align: start;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0 0 0; }
+
+.align-section {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0 0 0; }

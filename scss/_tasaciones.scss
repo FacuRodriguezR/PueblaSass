@@ -1,0 +1,56 @@
+.tasaciones{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'info info info'
+    'boton boton boton'
+    'footer footer footer';
+  }
+  .header-tasa{
+    grid-area: header;
+    
+  
+  }
+  .info-tasa{
+    display: block;
+    grid-area: info;
+    padding: 100px 0 100px 0;
+    background-image: url(../public/images/tasaciones.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .info-tasa::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  
+  .info-tasa h1 {
+    color: $color-naranja-principal;
+    position: relative;
+  }
+  .info-tasa p{
+    color: $color-parrafos;
+    position: relative;
+  align-content: stretch;
+  }
+  
+  
+  
+  .boton-tasa{
+    justify-content: center;
+    grid-area: boton;
+    display: flexbox;
+    padding: 50px 0 50px 0;
+    background-color:$color-principal;
+    
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+  
+  }
