@@ -15,6 +15,7 @@
   #header-index{
     grid-area: header;
   }
+
   
   #imagen-logo {
     height: 60px;
@@ -77,7 +78,7 @@
   }
   #font-color1 a {
     color: $color-naranja-principal;
-    font-weight: 700;
+    font-weight: $font-weight1+100;
     position: relative;
   }
   .boton-vender{
