@@ -566,7 +566,6 @@ p {
   color: white;
   position: relative;
   padding: 100px 0px 100px 0px;
-  grid-area: main;
   max-width: auto; }
 
 #background-nosotros:before {
