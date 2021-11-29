@@ -749,7 +749,7 @@ p {
     transform: translate(0, 0px); }
   nav {
     transition-duration: 500ms;
-    transform: translate(-100vw, 0px);
+    transform: translate(-110%, 0px);
     height: 100vh; }
   .cbx:checked ~ .style-button label:nth-child(1) {
     transform: rotate3d(0, 1, 1, 426deg) translate(22px, 6px); }
