@@ -1,4 +1,4 @@
-@media(max-width:900px) and (min-width:300px){
+@media(max-width:900px) and (min-width:500px){
     
     .display-index{
         display:block;
@@ -24,11 +24,13 @@
     .column2{
         text-align: center;
     }
-    
+    /* ul nav */
     .header-position{
+        display: none;
+    }
+    .menu-mobile {
         display: block;
     }
-    
     #cuerpo-index{
         display: block;
 
@@ -44,9 +46,8 @@
     }
 
     nav{
-        display: block;
+        display: none;
         position: relative;
-
     }
 
     /* palmares */
@@ -183,11 +184,9 @@
         width:300px;
         height: 233px;
     }
-    .header-position{
+    .menu-mobile {
         display: block;
-        max-width: fit-content;
     }
-
     .footer-flex{
         display: block;
         text-align: center;

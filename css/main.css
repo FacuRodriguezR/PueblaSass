@@ -8,6 +8,9 @@
 #header-index {
   grid-area: header; }
 
+.menu-mobile {
+  display: none; }
+
 #imagen-logo {
   height: 60px;
   width: 170px; }
@@ -209,7 +212,7 @@
   grid-area: carrousel;
   align-items: center; }
 
-@media (max-width: 900px) and (min-width: 300px) {
+@media (max-width: 900px) and (min-width: 500px) {
   .display-index {
     display: block;
     text-align: center; }
@@ -227,7 +230,10 @@
     text-align: center; }
   .column2 {
     text-align: center; }
+  /* ul nav */
   .header-position {
+    display: none; }
+  .menu-mobile {
     display: block; }
   #cuerpo-index {
     display: block; }
@@ -237,7 +243,7 @@
     display: block;
     position: relative; }
   nav {
-    display: block;
+    display: none;
     position: relative; }
   /* palmares */
   .iframe-palmares {
@@ -322,9 +328,8 @@
   .fotografias-ventas2 {
     width: 300px;
     height: 233px; }
-  .header-position {
-    display: block;
-    max-width: fit-content; }
+  .menu-mobile {
+    display: block; }
   .footer-flex {
     display: block;
     text-align: center;
@@ -720,6 +725,68 @@ p {
 #ubicacion {
   grid-area: maps;
   align-content: center; }
+
+@media screen and (max-width: 900px) {
+  header {
+    display: none !important; }
+  .hamburguer-button {
+    display: flex;
+    position: relative; }
+  .style-button {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 9px;
+    top: -5px;
+    z-index: -1; }
+  .cbx {
+    width: 60px;
+    height: 50px;
+    cursor: pointer; }
+  .cbx:checked + nav {
+    transform: translate(0, 0px); }
+  nav {
+    transition-duration: 500ms;
+    transform: translate(-100vw, 0px);
+    height: 100vh; }
+  .cbx:checked ~ .style-button label:nth-child(1) {
+    transform: rotate3d(0, 1, 1, 426deg) translate(22px, 6px); }
+  .cbx:checked ~ .style-button label:nth-child(3) {
+    transform: rotate3d(0, 1, 1, 292deg) translate(10px, -12px); }
+  .cbx:checked ~ .style-button label:nth-child(2) {
+    opacity: 0; }
+  label {
+    clip-path: inset(80% 0 0 0);
+    background: linear-gradient(to right, #d19320, #d19320, #d19320);
+    width: 40px;
+    height: 50px;
+    transition-duration: 500ms; }
+  input[type="checkbox"] {
+    opacity: 0; }
+  form {
+    position: fixed;
+    top: 0;
+    z-index: 2; }
+  nav {
+    position: absolute !important;
+    background-color: #252b2b;
+    z-index: -14;
+    left: -32px; }
+  li:hover {
+    background-color: black;
+    color: white; }
+  li {
+    transition-duration: 500ms;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 4rem;
+    width: 100vw;
+    list-style: none;
+    cursor: pointer; }
+  ul li {
+    margin: 0 !important; } }
 
 #titlepalm {
   font-size: 40px;

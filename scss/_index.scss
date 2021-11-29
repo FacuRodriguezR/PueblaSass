@@ -15,7 +15,9 @@
   #header-index{
     grid-area: header;
   }
-
+  .menu-mobile {
+    display: none;
+  }
   
   #imagen-logo {
     height: 60px;
