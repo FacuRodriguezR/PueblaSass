@@ -148,9 +148,10 @@
 
 .font-2 {
   font-weight: 400;
-  color: #b97001;
+  color: #cc7823;
   margin-left: 100px;
-  margin-right: 100px; }
+  margin-right: 100px;
+  font-size: 40px; }
 
 .font-1 {
   font-family: "Josefin Slab", serif;
@@ -370,7 +371,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #c5c3c3;
+  background-color: #3f3f3f;
   border: 0; }
 
 h3 {
@@ -661,9 +662,10 @@ p {
   text-align: center; }
 
 .info-vender {
-  font-family: "Raleway", sans-serif;
-  color: #181716;
-  font-size: 30px; }
+  font-family: "Josefin Slab", serif;
+  color: #d4d4d4;
+  font-size: 25px;
+  font-weight: 400; }
 
 .info-vender:hover {
   font-size: 30px; }
@@ -710,7 +712,9 @@ p {
 
 #info1 h1 {
   color: #e78f09;
-  position: relative; }
+  position: relative;
+  font-size: 45px;
+  font-weight: 400; }
 
 #info1 p {
   font-family: "Raleway", sans-serif;
@@ -734,6 +738,13 @@ p {
 #ubicacion {
   grid-area: maps;
   align-content: center; }
+
+.font-3 {
+  font-weight: 400;
+  color: #cc7823;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 30px; }
 
 @media screen and (max-width: 900px) {
   header {

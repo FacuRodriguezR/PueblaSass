@@ -1,7 +1,8 @@
 .info-vender{
-    font-family: $font-principal;
-    color: rgb(24, 23, 22);
-    font-size: 30px;
+    font-family: $font-parrafos;
+    color: rgb(212, 212, 212);
+    font-size: 25px;
+    font-weight: 400;
   }
   .info-vender:hover{
     font-size: 30px;
@@ -63,6 +64,8 @@
   #info1 h1{
     color: rgb(231, 143, 9);
     position: relative;
+    font-size: 45px;
+    font-weight: 400;
   }
   
   #info1 p {
@@ -88,4 +91,12 @@
   #ubicacion{
     grid-area: maps;
     align-content: center;  
+  }
+
+  .font-3 {
+    font-weight: 400;
+    color: rgb(204, 120, 35);
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 30px;
   }
