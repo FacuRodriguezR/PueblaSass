@@ -29,3 +29,22 @@
    font-weight: 600;
    margin: 10px 0 0 0;
   }
+
+  // palm valleys
+
+  .list-palmares{
+    li{
+    list-style-type:armenian;
+    display: block;
+    text-align: left;
+    padding: 1px;
+    font-size: 12px;
+    }
+    li:hover{
+      transition: none;
+      transform: none;
+      list-style-type: armenian;
+      
+    }
+    
+  }
