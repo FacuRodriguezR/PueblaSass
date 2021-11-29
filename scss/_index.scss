@@ -92,7 +92,7 @@
     border-radius: 30px;
     background-color: rgb(84, 94, 94);
     font-size: 20px;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: $font-principal;
     border-color: $color-naranja-principal;
     border: solid $color-naranja-principal;
     
@@ -150,7 +150,7 @@
     color: $color-naranja-principal;
     display: flex;
     justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:$font-principal;
     padding-bottom: 20px;
   }
   .fotografias-ventas2 {
@@ -166,12 +166,12 @@
 
   .font-2 {
     font-weight: 400;
-    color: $color-naranja-principal;
+    color: rgb(185, 112, 1);
     margin-left: 100px;
     margin-right: 100px;
   }
   .font-1 {
-    font-family: "Urbanist", sans-serif;
+    font-family: $font-parrafos;
     vertical-align: baseline;
     text-align: left;
     font-size: 20px;
@@ -197,13 +197,18 @@
   .column2 {
     align-content: space-evenly;
     display: flex;
+    justify-content: center;
     
   }
   .column1 p{
+    font-family: $font-principal;
+    font-weight: 400;
     padding-top: 25px;
     font-size: 16px;
   }
   .column3 p{ 
+    font-family: $font-principal;
+    font-weight: 400;
     padding-top: 25px;
     font-size: 16px;
   }

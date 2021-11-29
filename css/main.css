@@ -74,7 +74,7 @@
   border-radius: 30px;
   background-color: #545e5e;
   font-size: 20px;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "Raleway", sans-serif;
   border-color: #f09814;
   border: solid #f09814; }
 
@@ -105,14 +105,14 @@
 
 .seccion-fotos {
   display: flex;
-  background-color: #252b2b;
+  background-color: #121313;
   padding: 20px;
   margin: 10px;
   justify-content: space-between; }
 
 .seccion-fotos2 {
   display: flex;
-  background-color: #252b2b;
+  background-color: #121313;
   padding: 20px;
   margin: 10px;
   justify-content: space-between; }
@@ -131,7 +131,7 @@
   color: #f09814;
   display: flex;
   justify-content: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Raleway", sans-serif;
   padding-bottom: 20px; }
 
 .fotografias-ventas2 {
@@ -140,7 +140,7 @@
   padding: 20px 15px 20px 15px; }
 
 .background-list {
-  background-color: #252b2b;
+  background-color: #121313;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-top: 40px;
@@ -148,12 +148,12 @@
 
 .font-2 {
   font-weight: 400;
-  color: #f09814;
+  color: #b97001;
   margin-left: 100px;
   margin-right: 100px; }
 
 .font-1 {
-  font-family: "Urbanist", sans-serif;
+  font-family: "Josefin Slab", serif;
   vertical-align: baseline;
   text-align: left;
   font-size: 20px;
@@ -169,7 +169,7 @@
 
 .footer-vender {
   color: #c5c3c3;
-  background-color: #232525;
+  background-color: black;
   width: 100%;
   padding-bottom: 40px; }
 
@@ -178,13 +178,18 @@
 
 .column2 {
   align-content: space-evenly;
-  display: flex; }
+  display: flex;
+  justify-content: center; }
 
 .column1 p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   padding-top: 25px;
   font-size: 16px; }
 
 .column3 p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   padding-top: 25px;
   font-size: 16px; }
 
@@ -378,8 +383,8 @@ h4 {
 
 nav {
   display: flex;
-  background-color: #232525;
-  font-family: "Urbanist", sans-serif;
+  background-color: black;
+  font-family: "Raleway", sans-serif;
   text-align: center;
   position: sticky;
   top: 0;
@@ -388,8 +393,8 @@ nav {
 
 header {
   display: flex;
-  background-color: #232525;
-  font-family: "Urbanist", sans-serif;
+  background-color: black;
+  font-family: "Raleway", sans-serif;
   text-align: center;
   position: sticky;
   top: 0;
@@ -410,6 +415,7 @@ li:hover {
   transform: scale(1.2); }
 
 a {
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
   color: #bb841f;
   font-size: 20px;
@@ -421,13 +427,14 @@ a:hover {
   transform: scale(1.1); }
 
 h1 {
-  font-family: "Urbanist", sans-serif;
+  font-family: "Josefin Slab", serif;
+  font-weight: 800;
   color: #2b4141;
   font-size: 45px;
   text-align: center; }
 
 h2 {
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #2b4141;
   font-size: 35px;
   text-align: center; }
@@ -436,7 +443,7 @@ footer {
   display: flex; }
 
 p {
-  font-family: "Urbanist", sans-serif;
+  font-family: "Josefin Slab", serif;
   text-align: center;
   font-size: 26px;
   margin-left: 100px;
@@ -649,12 +656,12 @@ p {
   grid-area: boton;
   display: flexbox;
   padding: 50px 0 50px 0;
-  background-color: #252b2b;
+  background-color: #121313;
   font-family: "Urbanist", sans-serif;
   text-align: center; }
 
 .info-vender {
-  font-family: "Urbanist", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #181716;
   font-size: 30px; }
 
@@ -672,7 +679,7 @@ p {
   padding: 10px; }
 
 #boton-ventas:hover {
-  background-color: #d6680f; }
+  background-color: #a74d04; }
 
 #boton-ventas a {
   color: black;
@@ -701,13 +708,15 @@ p {
   position: relative;
   padding: 100px 0px 100px 0px; }
 
-#info1 h2 {
-  color: #f09814;
+#info1 h1 {
+  color: #e78f09;
   position: relative; }
 
 #info1 p {
-  color: #c5c3c3;
-  position: relative; }
+  font-family: "Raleway", sans-serif;
+  color: #dad8d8;
+  position: relative;
+  font-size: 20px; }
 
 #info1::before {
   content: "";
@@ -771,11 +780,11 @@ p {
     z-index: 2; }
   nav {
     position: absolute !important;
-    background-color: #252b2b;
+    background-color: black;
     z-index: -14;
     left: -32px; }
   li:hover {
-    background-color: black;
+    background-color: #121313;
     color: white; }
   li {
     transition-duration: 500ms;

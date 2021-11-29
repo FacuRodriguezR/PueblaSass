@@ -56,12 +56,12 @@
       }
       nav {
         position: absolute !important;
-        background-color: $color-principal;
+        background-color: $background-footer-header;
         z-index: -14;
         left: -32px;
     }
       li:hover {
-        background-color: black;
+        background-color: $color-principal;
         color: white;
       }
       li {
