@@ -1,135 +1,137 @@
 .lotes-body{
-    display: grid;
-    grid-template-areas: 
-    'header header header'
-    'terreno terreno terreno'
-    'video video pregunta'
-    'venta venta venta'
-    'other other other'
-    'footer footer footer';
-  }
-  #header1{
-    grid-area: header;
-    align-content: center;
-    position: sticky;
-    top: 0;
-    z-index: 999;  
-  }
-  #terrenos-lotes{
-    grid-area: terreno;
-    width: 100%;
-    background-image: url(../public/images/004.jpg);
-    background-position:bottom ;
-    background-size: cover;
-    position: relative;
-    padding: 100px 0px 100px 0px;
+  display: grid;
+  grid-template-areas: 
+  'header header header'
+  'terreno terreno terreno'
+  'video video pregunta'
+  'venta venta venta'
+  'other other other'
+  'footer footer footer';
+}
+#header1{
+  grid-area: header;
+  align-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;  
+}
+#terrenos-lotes{
+  grid-area: terreno;
+  width: 100%;
+  background-image: url(../public/images/004.jpg);
+  background-position:bottom ;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0px 100px 0px;
+
+}
+#terrenos-lotes::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#terrenos-lotes h1{
+  color: rgb(240, 152, 20);
+  position: relative;
+}
+
+#terrenos-lotes p {
+  color: rgb(219, 219, 219);
+  position: relative;
+}
+ #terrenos-lotes h2{
+  color: rgb(197, 195, 195);
+  position: relative;
+ }
+#imagenes-lotes-venta{
+  grid-area: venta;
+  justify-content: space-evenly;
+  display: flex;
+}
+#backgrnd-lotes {
+ color: rgb(219, 219, 219);
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.video-lotes{
+  grid-area: video;
+  align-content: center;
+  text-align: center;
+  background-color: rgb(43, 65, 65);
+  display: flex;
+  position: relative;
+  padding: 10px;
+}
+.imagenes-lotes {
+  display: flex;
+  /* margin-left: 40px; */
+  padding: 0px;
+}
+
+.fotografias-lotes {
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  transition: all .6s ease-in-out;  
+}
+
+.fotografias-lotes:hover{
+  transform: scale(1.1)
+;
+}
+.parrafos-lotes {
+  text-align: left;
+  margin-left: 60px;
+  color: $color-parrafos;
+}
+
+.parrafos-lotes1 {
+  text-align: left;
+  margin-left: 60px;
+  font-size: 20px;
+  font-weight: 300;
+  color: $color-parrafos;
+}
+#other-lotes{
+  grid-area: other;
+  align-content: center;
+  background-color: $color-principal;
+  padding: 30px 0 30px 0;
   
-  }
-  #terrenos-lotes::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-  
-  #terrenos-lotes h1{
-    color: rgb(240, 152, 20);
-    position: relative;
-  }
-  
-  #terrenos-lotes p {
-    color: rgb(219, 219, 219);
-    position: relative;
-  }
-   #terrenos-lotes h2{
-    color: rgb(197, 195, 195);
-    position: relative;
-   }
-  #imagenes-lotes-venta{
-    grid-area: venta;
-    justify-content: space-evenly;
-    display: flex;
-  }
-  #backgrnd-lotes {
-   color: rgb(219, 219, 219);
-    padding-bottom: 40px;
-    padding-top: 40px;
-  }
-  .video-lotes{
-    grid-area: video;
-    align-content: center;
-    text-align: center;
-    background-color: rgb(43, 65, 65);
-    display: flex;
-    position: relative;
-    padding: 10px;
-  }
-  .imagenes-lotes {
-    display: flex;
-    /* margin-left: 40px; */
-    padding: 0px;
-  }
-  
-  .fotografias-lotes {
-    width: 400px;
-    height: 300px;
-    padding: 20px;
-    transition: all .6s ease-in-out;  
-  }
-  
-  .fotografias-lotes:hover{
-    transform: scale(1.1)
-  ;
-  }
-  .parrafos-lotes {
-    text-align: left;
-    margin-left: 60px;
-  }
-  
-  .parrafos-lotes1 {
-    text-align: left;
-    margin-left: 60px;
-    font-size: 20px;
-    font-weight: 300;
-  }
-  #other-lotes{
-    grid-area: other;
-    align-content: center;
-    background-color: rgb(43, 65, 65);
-    padding: 30px 0 30px 0;
-    
-  }
-  
-  #other-lotes p {
-    color: rgb(197, 195, 195);
-  }
-  
+}
+
+#other-lotes p {
+  color: rgb(197, 195, 195);
+}
+
 #pregunta-lotes{
-    grid-area: pregunta;
-    background-color: rgb(43, 65, 65);
-    align-content: center;
-    display: block;
-  }
-  #pregunta-lotes p{
-    color: rgb(240, 152, 20);
-    font-size: 30px;
-  
-  }
-  #pregunta-lotes h3{
-    font-family: "Urbanist", sans-serif;
-    text-align: center;
-    color: rgb(197, 195, 195); 
-  }
-  
-  #pregunta-lotes a{
-    color: rgb(197, 195, 195);
-    font-size: 20px;
-  }
-  
-  #pregunta-lotes a:hover{
-    color: rgb(156, 29, 29);
-  }
-  
+  grid-area: pregunta;
+  background-color:$color-principal;
+  align-content: center;
+  display: block;
+  padding: 10px 0 10px 0;
+}
+#pregunta-lotes p{
+  color: rgb(240, 152, 20);
+  font-size: 30px;
+
+}
+#pregunta-lotes h3{
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+  color: rgb(197, 195, 195); 
+}
+
+#pregunta-lotes a{
+  color: rgb(197, 195, 195);
+  font-size: 20px;
+}
+
+#pregunta-lotes a:hover{
+  color: rgb(156, 29, 29);
+}

@@ -74,7 +74,7 @@
   border-radius: 30px;
   background-color: #545e5e;
   font-size: 20px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Tajawal", sans-serif;
   border-color: #f09814;
   border: solid #f09814; }
 
@@ -131,7 +131,7 @@
   color: #f09814;
   display: flex;
   justify-content: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Tajawal", sans-serif;
   padding-bottom: 20px; }
 
 .fotografias-ventas2 {
@@ -154,7 +154,7 @@
   font-size: 40px; }
 
 .font-1 {
-  font-family: "Josefin Slab", serif;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
   vertical-align: baseline;
   text-align: left;
   font-size: 20px;
@@ -183,13 +183,13 @@
   justify-content: center; }
 
 .column1 p {
-  font-family: "Raleway", sans-serif;
+  font-family: "Tajawal", sans-serif;
   font-weight: 400;
   padding-top: 25px;
   font-size: 16px; }
 
 .column3 p {
-  font-family: "Raleway", sans-serif;
+  font-family: "Tajawal", sans-serif;
   font-weight: 400;
   padding-top: 25px;
   font-size: 16px; }
@@ -261,9 +261,11 @@
     display: none;
     width: auto; }
   #imagenes-lotes-venta {
-    display: block; }
+    display: block;
+    align-content: center; }
   .imagenes-lotes {
-    display: block; }
+    display: block;
+    align-items: center; }
   .fotografias-lotes {
     width: 300px;
     height: 225px;
@@ -276,7 +278,10 @@
     display: none; }
   /* form */
   .body-form {
-    display: block; } }
+    display: block; }
+  .lotes-center {
+    display: block;
+    align-content: center; } }
 
 @media (max-width: 1268px) and (min-width: 901px) {
   .display-index {
@@ -313,9 +318,11 @@
     display: none;
     width: auto; }
   #imagenes-lotes-venta {
-    display: block; }
+    display: block;
+    align-content: center; }
   .imagenes-lotes {
-    display: block; }
+    display: block;
+    align-items: center; }
   .fotografias-lotes {
     width: 300px;
     height: 225px;
@@ -325,7 +332,10 @@
   .principal-vender {
     display: block; }
   #background-iframe {
-    display: none; } }
+    display: none; }
+  .lotes-center {
+    display: block;
+    align-content: center; } }
 
 @media (max-width: 499px) and (min-width: 301px) {
   .fotografias-ventas {
@@ -354,9 +364,11 @@
     width: auto; }
   #imagenes-lotes-venta {
     display: block;
-    position: relative; }
+    position: relative;
+    align-content: center; }
   .imagenes-lotes {
-    display: block; }
+    display: block;
+    align-items: center; }
   .fotografias-lotes {
     width: 300px;
     height: 225px;
@@ -366,7 +378,10 @@
   .principal-vender {
     display: block; }
   #background-iframe {
-    display: none; } }
+    display: none; }
+  .lotes-center {
+    display: block;
+    align-content: center; } }
 
 body {
   padding: 0;
@@ -387,7 +402,7 @@ h4 {
 nav {
   display: flex;
   background-color: black;
-  font-family: "Raleway", sans-serif;
+  font-family: "Tajawal", sans-serif;
   text-align: center;
   position: sticky;
   top: 0;
@@ -397,7 +412,7 @@ nav {
 header {
   display: flex;
   background-color: black;
-  font-family: "Raleway", sans-serif;
+  font-family: "Tajawal", sans-serif;
   text-align: center;
   position: sticky;
   top: 0;
@@ -418,7 +433,7 @@ li:hover {
   transform: scale(1.2); }
 
 a {
-  font-family: "Raleway", sans-serif;
+  font-family: "Tajawal", sans-serif;
   text-decoration: none;
   color: #bb841f;
   font-size: 20px;
@@ -430,14 +445,14 @@ a:hover {
   transform: scale(1.1); }
 
 h1 {
-  font-family: "Josefin Slab", serif;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
   font-weight: 800;
   color: #2b4141;
   font-size: 45px;
   text-align: center; }
 
 h2 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Tajawal", sans-serif;
   color: #2b4141;
   font-size: 35px;
   text-align: center; }
@@ -446,7 +461,7 @@ footer {
   display: flex; }
 
 p {
-  font-family: "Josefin Slab", serif;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
   text-align: center;
   font-size: 26px;
   margin-left: 100px;
@@ -528,18 +543,20 @@ p {
 
 .parrafos-lotes {
   text-align: left;
-  margin-left: 60px; }
+  margin-left: 60px;
+  color: #c5c3c3; }
 
 .parrafos-lotes1 {
   text-align: left;
   margin-left: 60px;
   font-size: 20px;
-  font-weight: 300; }
+  font-weight: 300;
+  color: #c5c3c3; }
 
 #other-lotes {
   grid-area: other;
   align-content: center;
-  background-color: #2b4141;
+  background-color: #121313;
   padding: 30px 0 30px 0; }
 
 #other-lotes p {
@@ -547,9 +564,10 @@ p {
 
 #pregunta-lotes {
   grid-area: pregunta;
-  background-color: #2b4141;
+  background-color: #121313;
   align-content: center;
-  display: block; }
+  display: block;
+  padding: 10px 0 10px 0; }
 
 #pregunta-lotes p {
   color: #f09814;
@@ -664,7 +682,7 @@ p {
   text-align: center; }
 
 .info-vender {
-  font-family: "Josefin Slab", serif;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
   color: #d4d4d4;
   font-size: 25px;
   font-weight: 400; }
@@ -719,7 +737,7 @@ p {
   font-weight: 400; }
 
 #info1 p {
-  font-family: "Raleway", sans-serif;
+  font-family: "Tajawal", sans-serif;
   color: #dad8d8;
   position: relative;
   font-size: 20px; }
