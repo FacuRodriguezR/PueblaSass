@@ -376,11 +376,13 @@ body {
 
 h3 {
   font-size: 16px;
-  font-weight: 700; }
+  font-weight: 700;
+  color: #c5c3c3; }
 
 h4 {
   font-size: 14px;
-  font-weight: 500; }
+  font-weight: 500;
+  color: #c5c3c3; }
 
 nav {
   display: flex;
@@ -817,23 +819,32 @@ p {
   text-align: start;
   font-size: 20px;
   font-weight: 600;
-  margin: 10px 0 0 0; }
+  margin: 10px 0 0 0;
+  color: #ececec; }
 
 .align-section {
   display: block;
   text-align: center;
   font-size: 20px;
   font-weight: 600;
-  margin: 10px 0 0 0; }
+  margin: 10px 0 0 0;
+  color: #ececec; }
 
 .list-palmares li {
   list-style-type: armenian;
   display: block;
   text-align: left;
   padding: 1px;
-  font-size: 12px; }
+  font-size: 12px;
+  color: #ececec; }
 
 .list-palmares li:hover {
   transition: none;
   transform: none;
   list-style-type: armenian; }
+
+.section2 p {
+  color: #f09814; }
+
+.tab-palm h2 {
+  color: #f09814; }
