@@ -887,7 +887,9 @@ p {
 .formulario {
   grid-area: form;
   padding: 10px 0 10px 0;
-  width: 50vw; }
+  width: 70vw;
+  text-align: center;
+  margin: 0 auto; }
   .formulario label {
     color: #c5c3c3; }
   .formulario h2 {
