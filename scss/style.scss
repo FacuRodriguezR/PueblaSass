@@ -55,10 +55,8 @@
   }
   
   .section2{
-
-    p{
-      color: $color-naranja-principal;
-     
+   p{
+      color: $color-naranja-principal;   
     }
   }
 
@@ -69,3 +67,32 @@
     }
   }
   
+  // FORMULARIO
+
+  .body-form{
+    display: grid;
+    grid-template-areas: 'header header header'
+    'solic solic solic'
+    'form form form'
+    'foot foot foot';
+    align-items: baseline;
+  }
+  .formulario{
+    grid-area: form;
+    padding: 10px 0 10px 0;
+    width: 50vw;
+    // margin-left: 350px;
+    label{
+      color: $color-parrafos;     
+    }
+    h2{
+      color: $color-parrafos;
+    } 
+  }
+  #solic{
+    padding: 20px 0 10px 0;
+    grid-area: solic;
+  }
+  #foot-form{
+    grid-area: foot;
+  }

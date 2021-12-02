@@ -281,7 +281,11 @@
     display: block; }
   .lotes-center {
     display: block;
-    align-content: center; } }
+    align-content: center; }
+  .formulario {
+    padding: 10px 0 10px 0;
+    width: 50%;
+    margin-left: 10px; } }
 
 @media (max-width: 1268px) and (min-width: 901px) {
   .display-index {
@@ -335,7 +339,11 @@
     display: none; }
   .lotes-center {
     display: block;
-    align-content: center; } }
+    align-content: center; }
+  .formulario {
+    padding: 10px 0 10px 0;
+    width: 50%;
+    margin-left: 10px; } }
 
 @media (max-width: 499px) and (min-width: 301px) {
   .fotografias-ventas {
@@ -381,7 +389,11 @@
     display: none; }
   .lotes-center {
     display: block;
-    align-content: center; } }
+    align-content: center; }
+  .formulario {
+    padding: 10px 0 10px 0;
+    width: 50%;
+    margin-left: 10px; } }
 
 body {
   padding: 0;
@@ -866,3 +878,24 @@ p {
 
 .tab-palm h2 {
   color: #f09814; }
+
+.body-form {
+  display: grid;
+  grid-template-areas: 'header header header' 'solic solic solic' 'form form form' 'foot foot foot';
+  align-items: baseline; }
+
+.formulario {
+  grid-area: form;
+  padding: 10px 0 10px 0;
+  width: 50vw; }
+  .formulario label {
+    color: #c5c3c3; }
+  .formulario h2 {
+    color: #c5c3c3; }
+
+#solic {
+  padding: 20px 0 10px 0;
+  grid-area: solic; }
+
+#foot-form {
+  grid-area: foot; }
