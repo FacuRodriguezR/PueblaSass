@@ -19,7 +19,7 @@
   grid-area: cuerpo; }
 
 #bckground-seccion1 {
-  background-image: url(../public/images/02.jpg);
+  background-image: url(https://i.ibb.co/dcMjCNw/02.jpg);
   background-position: center;
   background-size: cover;
   padding-top: 100px;
@@ -493,7 +493,7 @@ p {
 #terrenos-lotes {
   grid-area: terreno;
   width: 100%;
-  background-image: url(../public/images/004.jpg);
+  background-image: url(https://i.ibb.co/HGhQhKy/004.jpg);
   background-position: bottom;
   background-size: cover;
   position: relative;
@@ -605,7 +605,7 @@ p {
   grid-area: header; }
 
 #background-nosotros {
-  background-image: url(../public/images/02.jpg);
+  background-image: url(https://i.ibb.co/dcMjCNw/02.jpg);
   background-size: cover;
   background-position: center;
   color: white;
@@ -661,7 +661,7 @@ p {
   display: block;
   grid-area: info;
   padding: 100px 0 100px 0;
-  background-image: url(../public/images/tasaciones.jpg);
+  background-image: url(https://i.ibb.co/FmbHBkP/tasaciones-02.jpg);
   background-position: center;
   background-size: cover;
   position: relative; }
@@ -736,7 +736,7 @@ p {
 #info1 {
   grid-area: info;
   align-content: center;
-  background-image: url(../public/images/001.jpg);
+  background-image: url(https://i.ibb.co/yqH5QrZ/001.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
