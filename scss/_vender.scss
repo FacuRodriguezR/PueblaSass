@@ -64,15 +64,14 @@
   #info1 h1{
     color: rgb(231, 143, 9);
     position: relative;
-    font-size: 45px;
-    font-weight: 400;
+    font-size: 50px;
+    font-weight: 800;
   }
   
   #info1 p {
-    font-family: $font-principal;
     color: rgb(218, 216, 216);
     position: relative;
-    font-size: 20px;
+    font-size: 26px;
   }
   #info1::before{
     content: "";
