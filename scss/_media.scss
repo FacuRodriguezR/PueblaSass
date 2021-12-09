@@ -205,6 +205,33 @@
 
 
 @media (max-width:499px) and (min-width:301px){
+
+    .display-index{
+        display:block;
+        text-align: center;
+    }
+    #venta-index{
+        display:block;
+        text-align: center;
+    }
+    .seccion-fotos{
+        display: block;
+        text-align: center;
+    }
+    .seccion-fotos2{
+        display: block;
+        text-align: center;
+    }
+    .footer-flex{
+        display: block;
+        text-align: center;
+        
+    }
+    .column2{
+        text-align: center;
+        
+    }
+
     .fotografias-ventas{
         width:300px;
         height: 233px;
@@ -235,6 +262,9 @@
     }
 
     /* lotes */
+    #terrenos-lotes{
+        width: 50vw auto;
+    }
     .lotes-body{
         display: block;
     }
@@ -256,8 +286,8 @@
     }
 
     .fotografias-lotes {
-        width: 300px;
-        height: 225px;
+        width: 250px;
+        height: 187px;
         padding: 20px;
         transition: none;  
       }

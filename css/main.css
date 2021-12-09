@@ -346,6 +346,23 @@
     margin-left: 10px; } }
 
 @media (max-width: 499px) and (min-width: 301px) {
+  .display-index {
+    display: block;
+    text-align: center; }
+  #venta-index {
+    display: block;
+    text-align: center; }
+  .seccion-fotos {
+    display: block;
+    text-align: center; }
+  .seccion-fotos2 {
+    display: block;
+    text-align: center; }
+  .footer-flex {
+    display: block;
+    text-align: center; }
+  .column2 {
+    text-align: center; }
   .fotografias-ventas {
     width: 300px;
     height: 233px; }
@@ -365,6 +382,8 @@
   .iframe-palmares {
     display: none; }
   /* lotes */
+  #terrenos-lotes {
+    width: 50vw auto; }
   .lotes-body {
     display: block; }
   .video-lotes {
@@ -378,8 +397,8 @@
     display: block;
     align-items: center; }
   .fotografias-lotes {
-    width: 300px;
-    height: 225px;
+    width: 250px;
+    height: 187px;
     padding: 20px;
     transition: none; }
   /* vender */
@@ -481,7 +500,7 @@ p {
 
 .lotes-body {
   display: grid;
-  grid-template-areas: 'header header header' 'terreno terreno terreno' 'video video pregunta' 'venta venta venta' 'other other other' 'footer footer footer'; }
+  grid-template-areas: 'header header header' 'terreno terreno terreno' 'pregunta pregunta pregunta' 'venta venta venta' 'other other other' 'footer footer footer'; }
 
 #header1 {
   grid-area: header;
@@ -520,11 +539,6 @@ p {
   color: #c5c3c3;
   position: relative; }
 
-#imagenes-lotes-venta {
-  grid-area: venta;
-  justify-content: space-evenly;
-  display: flex; }
-
 #backgrnd-lotes {
   color: #dbdbdb;
   padding-bottom: 40px;
@@ -540,9 +554,9 @@ p {
   padding: 10px; }
 
 .imagenes-lotes {
-  display: flex;
-  /* margin-left: 40px; */
-  padding: 0px; }
+  grid-area: venta;
+  justify-content: space-evenly;
+  display: flex; }
 
 .fotografias-lotes {
   width: 400px;
