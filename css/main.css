@@ -874,7 +874,7 @@ p {
   color: #ececec; }
 
 .list-palmares li {
-  list-style-type: armenian;
+  list-style-type: none;
   display: block;
   text-align: left;
   padding: 1px;
