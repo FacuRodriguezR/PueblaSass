@@ -862,7 +862,7 @@ p {
   text-align: start;
   font-size: 20px;
   font-weight: 600;
-  margin: 10px 0 0 0;
+  margin: 0 0 0 0;
   color: #ececec; }
 
 .align-section {
@@ -870,7 +870,7 @@ p {
   text-align: center;
   font-size: 20px;
   font-weight: 600;
-  margin: 10px 0 0 0;
+  margin: 0 0 0 0;
   color: #ececec; }
 
 .list-palmares li {
@@ -914,3 +914,12 @@ p {
 
 #foot-form {
   grid-area: foot; }
+
+#footer1 {
+  width: 100vw;
+  grid-area: footer;
+  padding-bottom: 0%;
+  margin: 0px;
+  color: #c5c3c3;
+  background-color: black;
+  padding-bottom: 40px; }
