@@ -613,7 +613,9 @@ p {
 
 .nosotros-grid {
   display: grid;
-  grid-template-areas: 'header header header' 'main main main' 'title title title' 'footer footer footer'; }
+  grid-template-areas: 'header header header' 'main main main' 'valores valores valores' 'title title title' 'footer footer footer';
+  width: 100vw;
+  background-color: #0f0f0f; }
 
 #header-nos {
   grid-area: header; }
@@ -625,7 +627,8 @@ p {
   color: white;
   position: relative;
   padding: 100px 0px 100px 0px;
-  max-width: auto; }
+  max-width: auto;
+  width: 100vw; }
 
 #background-nosotros:before {
   content: "";
@@ -639,7 +642,8 @@ p {
 
 #background-nosotros p {
   color: white;
-  position: relative; }
+  position: relative;
+  width: auto; }
 
 #background-nosotros h1 {
   color: #f09814;
@@ -663,6 +667,29 @@ p {
   background-size: cover;
   padding-top: 20px;
   padding-bottom: 20px; }
+
+.nos-vender {
+  grid-area: valores;
+  margin: 0 0 40px 0;
+  width: 100vw;
+  text-align: center;
+  justify-content: center; }
+  .nos-vender h2 {
+    color: #f09814;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 30px 0 30px 0;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    background-color: black; }
+  .nos-vender ul li {
+    display: block;
+    text-align: left;
+    margin: 0 0 0 240px;
+    transform: none;
+    transition: none;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-size: 18px;
+    color: #c5c3c3; }
 
 .tasaciones {
   display: grid;
@@ -852,45 +879,6 @@ p {
     cursor: pointer; }
   ul li {
     margin: 0 !important; } }
-
-#titlepalm {
-  font-size: 40px;
-  font-weight: 700; }
-
-.align-section2 {
-  display: block;
-  text-align: start;
-  font-size: 20px;
-  font-weight: 600;
-  margin: 10px 0 0 0;
-  color: #ececec; }
-
-.align-section {
-  display: block;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 600;
-  margin: 10px 0 0 0;
-  color: #ececec; }
-
-.list-palmares li {
-  list-style-type: armenian;
-  display: block;
-  text-align: left;
-  padding: 1px;
-  font-size: 12px;
-  color: #ececec; }
-
-.list-palmares li:hover {
-  transition: none;
-  transform: none;
-  list-style-type: armenian; }
-
-.section2 p {
-  color: #f09814; }
-
-.tab-palm h2 {
-  color: #f09814; }
 
 .body-form {
   display: grid;

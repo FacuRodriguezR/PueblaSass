@@ -3,8 +3,11 @@
     grid-template-areas: 
     'header header header'
     'main main main'
+    'valores valores valores'
     'title title title'
     'footer footer footer';
+    width: 100vw;
+    background-color: rgb(15, 15, 15);
     }
     #header-nos{
       grid-area: header ;
@@ -18,6 +21,7 @@
      padding: 100px 0px 100px 0px;
     
      max-width: auto;
+     width: 100vw;
     }
     
     #background-nosotros:before {
@@ -34,6 +38,7 @@
     #background-nosotros p {
       color: rgb(255, 255, 255);
       position: relative;
+      width: auto;
     }
     
     #background-nosotros h1 {
@@ -61,4 +66,34 @@
       background-size: cover;
       padding-top: 20px;
       padding-bottom: 20px;
+    }
+
+    .nos-vender{
+      grid-area: valores;
+      margin: 0 0 40px 0;
+      width: 100vw;
+      text-align: center;
+      justify-content: center;
+      
+      h2{
+        color: $color-naranja-principal;
+        text-align: center;
+        margin: 0 0 0 0;
+        padding: 30px 0 30px 0;
+        font-family: $font-parrafos;
+        background-color: $background-footer-header;
+      }
+
+      ul li{
+        display: block;
+        text-align: left;
+        margin: 0 0 0 240px;
+        transform: none;
+        transition: none;
+        font-family: $font-parrafos;
+        font-size: 18px;
+        color: $color-parrafos;
+
+      }
+
     }
