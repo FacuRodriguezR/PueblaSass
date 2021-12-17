@@ -68,8 +68,8 @@
 
     ul li{
       display: block;
-      font-family: $font-principal;
-      font-weight: 600;
+      font-family: $font-parrafos;
+      font-weight: 500;
       color: $color-parrafos;
       transform: none;
       transition: none;
@@ -82,6 +82,7 @@
     h2 {
       color: $color-naranja-principal;
       width: auto;
+      font-family: $font-parrafos;
      
 
     }

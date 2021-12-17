@@ -741,8 +741,8 @@ p {
   margin: 0 auto; }
   .servicios-tasacion ul li {
     display: block;
-    font-family: "Tajawal", sans-serif;
-    font-weight: 600;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-weight: 500;
     color: #c5c3c3;
     transform: none;
     transition: none;
@@ -751,7 +751,8 @@ p {
     margin: 0 auto; }
   .servicios-tasacion h2 {
     color: #f09814;
-    width: auto; }
+    width: auto;
+    font-family: "Fira Sans Extra Condensed", sans-serif; }
 
 .info-vender {
   font-family: "Fira Sans Extra Condensed", sans-serif;
@@ -906,7 +907,7 @@ p {
 
 .formulario {
   grid-area: form;
-  padding: 10px 0 10px 0;
+  padding: 20px 0 20px 0;
   width: 70vw;
   text-align: center;
   margin: 0 auto; }
