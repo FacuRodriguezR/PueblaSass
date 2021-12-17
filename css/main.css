@@ -693,7 +693,7 @@ p {
 
 .tasaciones {
   display: grid;
-  grid-template-areas: 'header header header' 'info info info' 'boton boton boton' 'footer footer footer'; }
+  grid-template-areas: 'header header header' 'info info info' 'servicio servicio servicio' 'boton boton boton' 'footer footer footer'; }
 
 .header-tasa {
   grid-area: header; }
@@ -733,6 +733,25 @@ p {
   background-color: #121313;
   font-family: "Urbanist", sans-serif;
   text-align: center; }
+
+.servicios-tasacion {
+  grid-area: servicio;
+  width: 50vw auto;
+  display: block;
+  margin: 0 auto; }
+  .servicios-tasacion ul li {
+    display: block;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 600;
+    color: #c5c3c3;
+    transform: none;
+    transition: none;
+    font-size: 18px;
+    width: auto;
+    margin: 0 auto; }
+  .servicios-tasacion h2 {
+    color: #f09814;
+    width: auto; }
 
 .info-vender {
   font-family: "Fira Sans Extra Condensed", sans-serif;

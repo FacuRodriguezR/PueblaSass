@@ -3,6 +3,7 @@
     grid-template-areas: 
     'header header header'
     'info info info'
+    'servicio servicio servicio'
     'boton boton boton'
     'footer footer footer';
   }
@@ -53,4 +54,35 @@
     font-family: "Urbanist", sans-serif;
     text-align: center;
   
+  }
+
+  .servicios-tasacion{
+    grid-area: servicio;
+    width: 50vw auto;
+    display: block;
+    margin: 0 auto;
+    
+   
+    
+    
+
+    ul li{
+      display: block;
+      font-family: $font-principal;
+      font-weight: 600;
+      color: $color-parrafos;
+      transform: none;
+      transition: none;
+      font-size: 18px;
+      width: auto;
+      margin: 0 auto;
+      
+    }
+
+    h2 {
+      color: $color-naranja-principal;
+      width: auto;
+     
+
+    }
   }
