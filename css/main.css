@@ -364,11 +364,11 @@
   .column2 {
     text-align: center; }
   .fotografias-ventas {
-    width: 300px;
-    height: 233px; }
+    width: 250px;
+    height: 187px; }
   .fotografias-ventas2 {
-    width: 300px;
-    height: 233px; }
+    width: 250px;
+    height: 187px; }
   .menu-mobile {
     display: block; }
   .footer-flex {
@@ -418,7 +418,8 @@ body {
   padding: 0;
   margin: 0;
   background-color: #3f3f3f;
-  border: 0; }
+  border: 0;
+  overflow-x: hidden; }
 
 h3 {
   font-size: 16px;
@@ -489,7 +490,8 @@ h2 {
   text-align: center; }
 
 footer {
-  display: flex; }
+  display: flex;
+  justify-content: center; }
 
 p {
   font-family: "Fira Sans Extra Condensed", sans-serif;
