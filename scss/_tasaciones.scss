@@ -74,15 +74,19 @@
       transform: none;
       transition: none;
       font-size: 18px;
-      width: auto;
+      width: 90%;
       margin: 0 auto;
+      padding: 10px 0 10px 0;
+      
       
     }
 
     h2 {
       color: $color-naranja-principal;
-      width: auto;
-      font-family: $font-parrafos;
+      
+    width: 90%;
+    font-family: $font-parrafos;
+    margin: 25px auto;
      
 
     }

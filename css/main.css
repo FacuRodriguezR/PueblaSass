@@ -614,6 +614,9 @@ p {
 #pregunta-lotes a:hover {
   color: #9c1d1d; }
 
+.img-bottom {
+  border-bottom: #c5c3c3 solid 2px; }
+
 .nosotros-grid {
   display: grid;
   grid-template-areas: 'header header header' 'main main main' 'valores valores valores' 'title title title' 'footer footer footer';
@@ -754,12 +757,14 @@ p {
     transform: none;
     transition: none;
     font-size: 18px;
-    width: auto;
-    margin: 0 auto; }
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0 10px 0; }
   .servicios-tasacion h2 {
     color: #f09814;
-    width: auto;
-    font-family: "Fira Sans Extra Condensed", sans-serif; }
+    width: 90%;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    margin: 25px auto; }
 
 .info-vender {
   font-family: "Fira Sans Extra Condensed", sans-serif;
