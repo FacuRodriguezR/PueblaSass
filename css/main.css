@@ -331,7 +331,8 @@
     width: 300px;
     height: 225px;
     padding: 20px;
-    transition: none; }
+    transition: none;
+    margin: 0 auto; }
   /* vender */
   .principal-vender {
     display: block; }
@@ -383,9 +384,16 @@
     display: none; }
   /* lotes */
   #terrenos-lotes {
-    width: 50vw auto; }
+    width: 30vw;
+    display: block;
+    justify-content: center; }
+    #terrenos-lotes h1 {
+      font-size: 30px; }
+    #terrenos-lotes h2 {
+      font: 20px; }
   .lotes-body {
-    display: block; }
+    display: block;
+    width: auto; }
   .video-lotes {
     display: none;
     width: auto; }
@@ -395,7 +403,8 @@
     align-content: center; }
   .imagenes-lotes {
     display: block;
-    align-items: center; }
+    align-items: center;
+    width: auto; }
   .fotografias-lotes {
     width: 250px;
     height: 187px;
@@ -502,7 +511,8 @@ p {
 
 .lotes-body {
   display: grid;
-  grid-template-areas: 'header header header' 'terreno terreno terreno' 'pregunta pregunta pregunta' 'venta venta venta' 'other other other' 'footer footer footer'; }
+  grid-template-areas: 'header header header' 'terreno terreno terreno' 'pregunta pregunta pregunta' 'venta venta venta' 'other other other' 'footer footer footer';
+  overflow-x: hidden; }
 
 #header1 {
   grid-area: header;
@@ -546,23 +556,14 @@ p {
   padding-bottom: 40px;
   padding-top: 40px; }
 
-.video-lotes {
-  grid-area: video;
-  align-content: center;
-  text-align: center;
-  background-color: #2b4141;
-  display: flex;
-  position: relative;
-  padding: 10px; }
-
 .imagenes-lotes {
   grid-area: venta;
   justify-content: space-evenly;
   display: flex; }
 
 .fotografias-lotes {
-  width: 400px;
-  height: 300px;
+  width: 350px;
+  height: 270px;
   padding: 20px;
   transition: all .6s ease-in-out; }
 
@@ -617,7 +618,8 @@ p {
   display: grid;
   grid-template-areas: 'header header header' 'main main main' 'valores valores valores' 'title title title' 'footer footer footer';
   width: 100vw;
-  background-color: #0f0f0f; }
+  background-color: #0f0f0f;
+  overflow-x: hidden; }
 
 #header-nos {
   grid-area: header; }
@@ -630,7 +632,7 @@ p {
   position: relative;
   padding: 100px 0px 100px 0px;
   max-width: auto;
-  width: 100vw; }
+  width: 100%; }
 
 #background-nosotros:before {
   content: "";
@@ -673,7 +675,7 @@ p {
 .nos-vender {
   grid-area: valores;
   margin: 0 0 40px 0;
-  width: 100vw;
+  width: 100%;
   text-align: center;
   justify-content: center; }
   .nos-vender h2 {
@@ -682,7 +684,8 @@ p {
     margin: 0 0 0 0;
     padding: 30px 0 30px 0;
     font-family: "Fira Sans Extra Condensed", sans-serif;
-    background-color: black; }
+    background-color: black;
+    width: 100%; }
   .nos-vender ul li {
     display: block;
     text-align: left;
@@ -691,7 +694,9 @@ p {
     transition: none;
     font-family: "Fira Sans Extra Condensed", sans-serif;
     font-size: 18px;
-    color: #c5c3c3; }
+    color: #c5c3c3;
+    width: 100%;
+    padding: 10px 0; }
 
 .tasaciones {
   display: grid;

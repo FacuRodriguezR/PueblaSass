@@ -7,6 +7,7 @@
   'venta venta venta'
   'other other other'
   'footer footer footer';
+  overflow-x: hidden;
 }
 #header1{
   grid-area: header;
@@ -54,23 +55,16 @@
   padding-bottom: 40px;
   padding-top: 40px;
 }
-.video-lotes{
-  grid-area: video;
-  align-content: center;
-  text-align: center;
-  background-color: rgb(43, 65, 65);
-  display: flex;
-  position: relative;
-  padding: 10px;
-}
+
 .imagenes-lotes {
   grid-area: venta;
   justify-content: space-evenly;
-  display: flex;}
+  display: flex;
+}
 
 .fotografias-lotes {
-  width: 400px;
-  height: 300px;
+  width: 350px;
+  height: 270px;
   padding: 20px;
   transition: all .6s ease-in-out;  
 }

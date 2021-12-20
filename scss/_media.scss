@@ -181,6 +181,7 @@
         height: 225px;
         padding: 20px;
         transition: none;  
+        margin: 0 auto;
       }
       /* vender */
       .principal-vender{
@@ -263,10 +264,19 @@
 
     /* lotes */
     #terrenos-lotes{
-        width: 50vw auto;
+        width: 30vw ;
+        display: block;
+        justify-content: center;
+        h1{
+            font-size: 30px;
+        }
+        h2{
+            font: 20px ;
+        }
     }
     .lotes-body{
         display: block;
+        width: auto;
     }
 
     .video-lotes{
@@ -283,6 +293,7 @@
     .imagenes-lotes{
         display: block;
         align-items: center;
+        width: auto;
     }
 
     .fotografias-lotes {
@@ -290,6 +301,7 @@
         height: 187px;
         padding: 20px;
         transition: none;  
+        
       }
 
       /* vender */
